@@ -1,4 +1,5 @@
 # SCStreamError Sample
+***Make sure to [read my article](https://nonstrict.eu/blog/2023/mentioning-scstreamerror-crashes-on-older-macos-versions) about why mentioning SCStreamError crashes on older macOS versions.***
 
 Minimal sample to demonstrates executables referencing SCStreamError fail to start when running on a macOS before 12.3, because it can't find ScreenCaptureKit.
 
